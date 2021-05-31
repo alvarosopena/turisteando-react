@@ -13,6 +13,7 @@ function App() {
             <section className="App-header">
               <Header />
               <Home />
+              <h1>prueba</h1>
               </section>
               
               <section className="footer">
