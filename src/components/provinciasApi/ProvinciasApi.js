@@ -32,31 +32,21 @@ export default class ProvinciasApi extends Component {
     }
 
     render() {
-        const {provincias} = this.state
-        //console.log(provincias)
-        let provinceCards 
-        
-            if(provincias){
+            const {provincias} = this.state
+            
+            let provincesString
+            
+                if(provincias){
                 
-                provinceCards = (
-                    <a>
-                        {
-                        provincias.map((provincia) => (
-                            
-                        <marquee>  { provincia.nombre } </marquee>
-                                    
-                        ))
-                        }
-                    </a>
-                )
-            }
+                    provincesString = provincias.map((provincia) => provincia.nombre).join("-")
+                    console.log(provincesString)
+                    }
            
         return ( 
                       
-            <h4>
-           {provinceCards} 
-
-            </h4>
+            <div>
+                <marquee> {provincesString} </marquee>
+            </div>
                             
         )
     }

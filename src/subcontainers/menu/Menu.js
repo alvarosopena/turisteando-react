@@ -15,16 +15,16 @@ export default class Menu extends Component {
   
       onClickProductsButton(){
         this.setState({
-          showProducts: !this.state.showProducts
-  
+          showProducts: !this.state.showProducts,
+          showUsers:false
         })
         
       }
       
       onClickUsersButton(){
         this.setState({
-          showUsers: !this.state.showUsers
-  
+          showUsers: !this.state.showUsers,
+          showProducts: false
         })
         
       }
@@ -36,11 +36,10 @@ export default class Menu extends Component {
           <main>
               <a> <button onClick={() => this.onClickProductsButton () } > VER MAS AVENTURAS! </button></a>
                 { showProducts && <Products /> }
-              <a> <button onClick={() => this.onClickUsersButton () } > Nuestros aventurer@s </button></a>
+              <a> <button onClick={() => this.onClickUsersButton () } > USUARIOS </button></a>
                  { showUsers && <Users />  }
               <br  />
-
-              </main>
+          </main>
     )
   } 
 }

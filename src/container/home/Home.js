@@ -5,7 +5,7 @@ import Index from "../../subcontainers/index/Index"
 function Home() {
     return (
         <>
-         
+        
            <Stats />  
            <Menu /> 
            <Index /> 

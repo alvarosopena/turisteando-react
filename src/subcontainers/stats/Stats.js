@@ -1,7 +1,7 @@
 import './App.css';
 import TotalProducts from "../../components/cards/totalProducts"
 import TotalUsers from '../../components/cards/totalUsers'
-/* import TotalDestacados from '../../components/cards/totalDestacados' */
+import TotalDestacados from '../../components/cards/totalDestacados'
 
 function Stats() {
     return (
@@ -9,7 +9,7 @@ function Stats() {
          
            <TotalProducts />  
            <TotalUsers /> 
-          {/*  <TotalDestacados/>  */}
+          <TotalDestacados/>  
          
             
         </div>

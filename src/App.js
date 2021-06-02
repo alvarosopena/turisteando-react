@@ -1,5 +1,3 @@
-/* import React, { Component } from 'react' */
-
 import './App.css';
 import Header from "./container/header/Header"
 import Home from "./container/home/Home"
@@ -13,12 +11,11 @@ function App() {
             <section className="App-header">
               <Header />
               <Home />
-              <h1>prueba</h1>
-              </section>
-              
-              <section className="footer">
+            </section>
+ 
+            <section className="footer">
               <Footer />  
-              </section>
+            </section>
 
     </div>
   );
