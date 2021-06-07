@@ -5,13 +5,12 @@ import TotalDestacados from '../../components/cards/totalDestacados'
 
 function Stats() {
     return (
-        <div className = "text">
-         
-           <TotalProducts />  
-           <TotalUsers /> 
-          <TotalDestacados/>  
-         
-            
+        <div className = "card-content">
+        
+            <TotalProducts />  
+            <TotalUsers /> 
+            <TotalDestacados/>  
+          
         </div>
     )
 }

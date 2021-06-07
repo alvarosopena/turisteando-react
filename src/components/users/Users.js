@@ -46,7 +46,7 @@ export default class UsersInDB extends Component {
                             <div className="row">
                                 <div className="card-body">
                                     <h3>  { user.first_name } { user.last_name } </h3>
-                                    <p> <img src={"http://localhost:3000/images/users/"+ user.image} alt="imagen usuario" /> </p>
+                                    <p> <img src={"http://localhost:3000/images/users/"+ user.image} alt="imagen usuario" width="20%"/> </p>
                                     <p> Email: { user.email   }</p>
                                     <p> Pais: { user.country }</p>
                                     <p> Categoría: { user.category_id }</p>

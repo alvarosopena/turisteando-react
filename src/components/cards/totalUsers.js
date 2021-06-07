@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './App.css';
 class Users extends Component {
     constructor(props){
         super(props);
@@ -22,11 +22,11 @@ class Users extends Component {
 
     render() {
         return(
-            <div className="">
+            <div className="content-card1">
                 <div className="">
                     Usuarios registrados: 
                 </div>
-                <div className="">
+                <div className="content-1">
                 { this.state.users }
                 </div>
             </div>

@@ -48,7 +48,7 @@ export default class LastProduct extends Component {
               <p>  { title  } </p>
               <p> ARS$ { price  } p/p </p>
               <br/>
-              <img src={"http://localhost:3000/images/destinos/"+ image} />
+              <img src={"http://localhost:3000/images/destinos/"+ image} width="50%" />
                <p>  { description  } </p>
             </div>
         )

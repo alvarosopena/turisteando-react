@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './App.css';
 class Products extends Component {
     constructor(props){
         super(props);
@@ -23,11 +23,11 @@ class Products extends Component {
 
     render() {
         return(
-                <div className="">
+                <div className="content-card1">
                     <div className="">
                         Paquetes disponibles:
                     </div>
-                    <div className="">
+                    <div className="content-1">
                         {
                             this.state.products   
                         }
