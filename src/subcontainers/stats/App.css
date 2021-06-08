@@ -7,3 +7,13 @@ position: relative;
     justify-content:space-around;
 
   }
+  .card-content2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;  
+  /*   border:solid 1px gray;  */
+  position: relative;
+      justify-content:space-around;
+
+  
+    }

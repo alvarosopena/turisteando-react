@@ -6,9 +6,11 @@ import ProvinciasApi from "../../components/provinciasApi/ProvinciasApi"
 function Header() {
     return (
         <>
-           <Logo />  
-           <Banner /> 
-        <ProvinciasApi /> 
+            <Logo />  
+            <br/>
+            <Banner /> 
+            <ProvinciasApi /> 
+            <hr/>
               
         </>
     )

@@ -8,10 +8,7 @@ function Index() {
            <LastProduct />  
            
             <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            
         </>
     )
 }

@@ -9,7 +9,8 @@ function Logo() {
         <div> 
             <img src={logo} className="App-logo" alt="logo" />
             <p> Bienvenidos a TuristandoApp  </p>
-            <a className="App-link" > Elegí tu proxima aventura </a>
+            <a className="App-link" > Elegí tu proxima aventura! </a>
+            
              
         </div>
     )

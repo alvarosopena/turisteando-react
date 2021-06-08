@@ -38,14 +38,15 @@ export default class ProvinciasApi extends Component {
             
                 if(provincias){
                 
-                    provincesString = provincias.map((provincia) => provincia.nombre).join("-")
-                    console.log(provincesString)
+                    provincesString = provincias.map((provincia) => provincia.nombre).join(" - ")
+                   /*  console.log(provincesString) */
                     }
            
         return ( 
                       
             <div>
                 <marquee> {provincesString} </marquee>
+                
             </div>
                             
         )

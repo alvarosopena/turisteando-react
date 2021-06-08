@@ -11,7 +11,7 @@ export default class Banner extends Component {
         return <div> 
          
             <div>  
-            <img src={panoramica} className="App-logo" alt="logo" width="100%" /> 
+            <img src={panoramica} className="App-logo" alt="logo" width="90%" /> 
             </div>
             <br/>
             <hr/>
