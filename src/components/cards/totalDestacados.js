@@ -38,7 +38,6 @@ class Products extends Component {
                         {
                             this.state.products   
                         }
-                         
                     </div>
                 </div>
         )

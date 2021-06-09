@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 
-/* aaa */
-
 const API = "http://localhost:3000/api/productList"
 
 export default class LastProduct extends Component {
@@ -43,24 +41,25 @@ export default class LastProduct extends Component {
         const LProduct = products[products.length-1]
         const {title, price, image, description} = LProduct
         //console.log(LProduct)
-        LastProduct = (
-            <div>
-              <p>  { title  } </p>
-              <p> ARS$ { price  } p/p </p>
-              <br/>
-              <img src={"http://localhost:3000/images/destinos/"+ image} width="50%" />
-               <p>  { description  } </p>
-            </div>
+          LastProduct = (
+              <div>
+                <h3>  { title  } </h3>
+                <p> ARS$ { price  } p/p </p>
+                <br/>
+                <img src={"http://localhost:3000/images/destinos/"+ image} width="auto" />
+                <p> Descripción: { description  } </p>
+              </div>
         )
       }
         
     return ( 
        
 			<div className="">					
-        <br/>	
-        <h2 className="App-link">Novedad: </h2>
+        <h2 className="App-link">Ultimo producto!: </h2>
         <hr/>
-        <div>  {LastProduct}  </div>
+          <div>  
+            {LastProduct}  
+          </div>
       </div>
 
     )

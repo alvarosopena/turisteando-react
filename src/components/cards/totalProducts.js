@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-
 import './App.css';
+
 class Products extends Component {
     constructor(props){
         super(props);

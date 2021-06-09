@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import panoramica from '../../pano3.jpg'
+import panoramica from "../../404.jpg"
 
 
-export default class Banner extends Component {
+export default class NotFound extends Component {
     constructor (props){
             super(props)
     }
@@ -10,7 +10,7 @@ export default class Banner extends Component {
     render () {
         return<div> 
                <div>  
-                    <img src={panoramica} className="App-logo" alt="logo" width="90%" /> 
+                    <img src={panoramica} className="App-logo" alt="logo" width="100%" /> 
                  </div>
                 <br/>
                 <hr/>
