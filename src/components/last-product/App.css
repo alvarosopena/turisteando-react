@@ -1,0 +1,18 @@
+.Lastproduct{
+
+    border-style: dashed;
+    width: 800px;
+    padding: 10px 20px;  
+    border:solid 1px;
+    margin: auto;
+    position: relative;
+    /* justify-content:space-around; */
+    flex-wrap: wrap;   
+    color:#282c34;
+    /* width: auto; */
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377); 
+     
+     background-color: whitesmoke; 
+    }
+    
