@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-
+import './App.css';
 
 
 const API = "http://localhost:3000/api/userList"
@@ -44,14 +44,14 @@ export default class UsersInDB extends Component {
                     {
                         users.map((user) => (
                             <div className="row">
-                                <div className="card-body">
-                                    <h3>  { user.first_name } { user.last_name } </h3>
-                                    <p> <img src={"http://localhost:3000/images/users/"+ user.image} alt="imagen usuario" width="20%"/> </p>
+                                <div className="ccard-user">
+                                    <h3 class="title-user">  { user.first_name } { user.last_name } </h3>
+                                    <p class="imguser"> <img src={"http://localhost:3000/images/users/"+ user.image} alt="imagen usuario" width="30%" /> </p>
                                     <p> Email: { user.email   }</p>
                                     <p> Pais: { user.country }</p>
                                     <p> Categoría: { user.category_id }</p>
                                 </div>
-                            <hr/>
+                            {/* <hr/> */}
                             </div>
                         ))
                     }
@@ -60,12 +60,12 @@ export default class UsersInDB extends Component {
         }
 
         return ( 
-			<div className="col-lg-6 mb-4">						
-                <div className="card-header py-3">
-                    <h2 className="m-0 font-weight-bold text-gray-800">Usuarios de nuestra App</h2>
+			<div className="">						
+                <div className="">
+                    <h2 className="">Usuarios de nuestra App</h2>
                 </div>
                 <hr/>
-                <div className="card-body">
+                <div className="card-user">
                     {userCards}
                 </div>
             </div>

@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+
 import './App.css';
 class Products extends Component {
     constructor(props){
@@ -24,6 +27,7 @@ class Products extends Component {
     render() {
         return(
                 <div className="content-card1">
+                    <FontAwesomeIcon icon={faPaperPlane} />
                     <div className="">
                         Paquetes disponibles:
                     </div>

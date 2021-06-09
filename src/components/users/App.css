@@ -1,0 +1,36 @@
+.ccard-user{
+    width: 40%;
+    height: 50%;
+    justify-content: left;
+ 
+
+   border:solid 1px gray;   
+ 
+    position: relative;
+
+/*     margin: 0 auto;  */
+    margin: 20px auto; 
+    padding: 10px; 
+ 
+}
+.imguser{ 
+    border-radius: 10rem;
+    justify-content: left;
+    float: right;
+    width: 150px;
+    /* height:150px; */
+    padding: 20;
+    /* margin: 10px; */
+    margin: 20px auto; 
+    position: relative;
+
+}
+
+    .title-user{
+        font-size: 30px;
+        background-color: lightslategray;
+        height: 50px;
+        padding: 10px 20px;
+        margin: 10px;
+        color: white;
+    }

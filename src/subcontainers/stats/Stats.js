@@ -3,6 +3,7 @@ import TotalProducts from "../../components/cards/totalProducts"
 import TotalUsers from '../../components/cards/totalUsers'
 import TotalDestacados from '../../components/cards/totalDestacados'
 import ProductList from "../../components/product-list/ProductList"
+
 import UserList from "../../components/user-list/UserList"
 
 function Stats() {

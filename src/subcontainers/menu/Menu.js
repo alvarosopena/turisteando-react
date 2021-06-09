@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Products from "../../components/products/Products"
+/* import Products from "../../components/products/Products" */
 import Users from "../../components/users/Users"
-
+import './App.css';
 
 export default class Menu extends Component {  
     constructor (props){
@@ -13,13 +13,13 @@ export default class Menu extends Component {
       }
   }
   
-      onClickProductsButton(){
+   /*    onClickProductsButton(){
         this.setState({
           showProducts: !this.state.showProducts,
           showUsers:false
         })
         
-      }
+      } */
       
       onClickUsersButton(){
         this.setState({
@@ -30,16 +30,19 @@ export default class Menu extends Component {
       }
 
       render() {
-        const { showProducts } = this.state
+        /* const { showProducts } = this.state */
         const { showUsers } = this.state
         return (
           <main>
-              <a> <button onClick={() => this.onClickProductsButton () } > VER MAS AVENTURAS! </button></a>
-                { showProducts && <Products /> }
+            <div class = "buttons user">
+              {/* <a> <button onClick={() => this.onClickProductsButton () } > VER MAS AVENTURAS! </button></a>
+                { showProducts && <Products /> } */}
               <a> <button onClick={() => this.onClickUsersButton () } > USUARIOS </button></a>
                  { showUsers && <Users />  }
+            </div>
               <br  />
               <br  />
+             
           </main>
     )
   } 
